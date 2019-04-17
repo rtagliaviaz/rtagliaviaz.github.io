@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>Portfolio</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+<!--Navbar -->
+<nav class="navbar  navbar-expand-lg navbar-light tranparent">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      RTagliavia
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+
+      </ul>
+    </div>
+
+  </div>
+</nav>
+<!--/Navbar -->
+
+<!--About -->
+<header id="about">
+  <div class="container mt-5">
+
+    <div class="row mt-5">
+      <div class="col-md-8">
+        <h1 class="text-center pb-3">Robert Tagliavia</h3>
+          <p class="justify-content-center">
+            Hola mi nombre es Robert, vivo en Venezuela, soy FrontEnd developer,
+            aprendi de forma autodidacta, no le tengo miedo a la terminal, siempre
+            estoy tratando de aprender nuevas tecnologías o crear nuevos proyectos
+            personales para poner en practicas mis conocimientos.</p>
+      </div>
+      <div class="col-md-4">
+        <h3 class="text-center">Technologies</h3>
+        <ul class="justify-content-center align-items">
+          <li>
+            <button class="btn btn-dark">HTML</button>
+            <button class="btn btn-dark">CSS</button>
+            <button class="btn btn-dark">JS</button>
+          </li>
+          <li>
+            <button class="btn btn-dark">jQuery</button>
+            <button class="btn btn-dark">Bootstrap</button>
+          </li>
+          <li><button class="btn btn-dark">Wordpress</button></li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</header>
+<!--/About -->
+
+<!--Projects -->
+<section id="projects" class="py-3">
+  <div class="container">
+    <h2 class="text-center py-3">Projects</h2>
+    <div class="row">
+      <div class="col-md-4 py-3">
+        <div class="project-container">
+          <img src="img/p1.png" class="img-fluid img-thumbnail project-img" alt="food-picture">
+          <a href="img/1.jpg">
+            <a href="https://rtagliaviaz.github.io/restaurant/" target="_blank">
+              <h3 class="text-uppercase text-center project-link ">Take a look</h3>
+            </a>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-8 d-none d-lg-block py-3">
+        <p>Web simple de un restaurant que cuenta con una barra de navegacion,
+          galeria de images, un menu, etc.. se hizo uso de Bootstrap, jQuery,
+          la pagina cuenta con animaciones simples, el diseño es responsive</p>
+        <a href="https://github.com/rtagliaviaz/restaurant" target="_blank"><i class="fas fa-code fa-3x"></i></a>
+      </div>
+      <div class="col-md-4 py-3">
+        <div class="project-container">
+          <img src="img/p2.png" class="img-fluid img-thumbnail project-img" alt="food-picture">
+          <a href="img/1.jpg">
+            <a href="https://rtagliaviaz.github.io/Tavarcio/" target="_blank">
+              <h3 class="text-uppercase text-center project-link">Take a look</h3>
+            </a>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-8 d-none d-lg-block py-3">
+        <p>Web de portfolio realizada para Tavarcio, posteriormente se paso
+          a Wordpress para facilitar la edicion al usuario</p>
+        <a href="https://github.com/rtagliaviaz/Tavarcio" target="_blank"><i class="fas fa-code fa-3x"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /Projects -->
+
+<!-- Contact-->
+<footer class="footer py-3" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="offset-lg-4 col-lg-4">
+        <div class="contacto text-center">
+          <h3>Get in Touch</h3>
+          <p><a href="mailto:rtagliavia.pp@gmail.com" target="_blank">rtagliavia.pp@gmail.com</a></p>
+          <ul class="icons">
+            <li><a href="https://github.com/rtagliaviaz" target="_blank"><i class="fab fa-github fa-3x"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /Contact-->
+
+<body>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+  </script>
+  <!-- js -->
+  <script type="text/javascript" src="./js/main.js"></script>
+
+  </script>
+</body>
+
+</html>
