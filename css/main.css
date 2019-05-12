@@ -1,5 +1,43 @@
 body {
-  background: #EAF2EF;
+  /*background: #EAF2EF;*/
+}
+
+header {
+  height: auto;
+}
+
+/* header .text {
+  font-size: 50px;
+  font-stretch: ultra-condensed;
+  font-weight: 300;
+} */
+h2 {
+  font-size: 2rem;
+}
+
+.item-container {
+  position: relative;
+  /* for the link */
+  overflow: hidden;
+  background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+  transition: all 2s ease;
+}
+
+#projects {
+  height: auto;
+}
+
+.fas, .fab {
+  color: white;
+}
+
+#contact {
+  background: #343a40;
+  color: white;
+}
+
+.footer a {
+  color: white;
 }
 
 .footer ul {
@@ -20,44 +58,4 @@ li {
   padding-top: 10px;
   list-style: none;
   margin: 0 20px;
-}
-
-.item-container {
-  position: relative;
-  /* for the link */
-  overflow: hidden;
-  background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
-  transition: all 2s ease;
-}
-
-.project-img {
-  transition: all 2s ease;
-}
-
-.project-container:hover .project-img {
-  transform: scale(1);
-  opacity: 0.3;
-}
-
-.project-link {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: black;
-  font-size: 2rem;
-  transition: all 1s ease;
-  opacity: 0;
-}
-
-.project-container:hover .project-link {
-  opacity: 1;
-}
-
-.project-link:hover {
-  color: black;
-}
-
-.fas, .fab {
-  color: black;
 }
