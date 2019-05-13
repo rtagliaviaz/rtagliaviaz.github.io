@@ -4,11 +4,11 @@ body {
 
 header {
   height: auto;
-  padding-bottom: 6rem;
+  padding-bottom: 95px;
 }
 
 header p {
-  padding-top: 2rem;
+  padding-top: 32px;
 }
 
 /* header .text {
@@ -17,7 +17,7 @@ header p {
   font-weight: 300;
 } */
 h2 {
-  font-size: 2rem;
+  font-size: 50px;
 }
 
 .item-container {
