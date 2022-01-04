@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import styled from "styled-components";
 
+//components
+import Header from "./components/Header/Header";
+import Techs from "./components/Techs/Techs";
+import Projects from "./components/Projects/Projects";
+
+const Division = styled.div`
+  display: flex;
+`;
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{background: '#18181b', width:'100%', margin: '0'}}>
+      <Header />
+      <Division>
+        <Techs />
+        <Projects />
+      </Division>
     </div>
   );
 }
