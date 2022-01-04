@@ -6,7 +6,7 @@ import breakpoints from "../../Commons/breakpoints";
 const Technologies = styled.div`
     display: flex;
     flex-direction: column;
-    background: #2a4267;
+    background: #08cda7;
     width: 5%;
     align-items: center;
     margin-right: 60px;
