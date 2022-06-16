@@ -66,6 +66,7 @@ const Technologies = styled.div`
 const Techs = () => {
   const techs = [
     { name: 'Linkedin', icon: "../icons/linkedin.png", link: 'https://www.linkedin.com/in/robert-t-0ab1781a4/'},
+    { name: 'DevTo', icon: "../icons/dev-black.png", link: 'https://dev.to/rtagliavia/'},
     { name: "github", icon: "../icons/github.png", link: 'https://github.com/rtagliaviaz' },
   ];
 
